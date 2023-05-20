@@ -1,0 +1,594 @@
+@charset "utf-8";
+@import url("../webfonts/Roboto_Light/stylesheet.css");
+@import url("../webfonts/Roboto_Bold/stylesheet.css");
+@import url("../webfonts/Montserrat_Bold/stylesheet.css");
+@import url("../webfonts/Montserrat_SemiBoldItalic/stylesheet.css");
+@import url("../webfonts/Roboto_MediumItalic/stylesheet.css");
+@import url("../webfonts/Montserrat_Medium/stylesheet.css");
+
+
+
+
+
+
+.flex-containernav {
+    display: flex;
+    align-items: stretch;
+    background-color: #0B2447;
+    height: 95px;
+    flex-wrap: no-wrap;
+}
+header, nav, main, footer {
+    width: 100%;
+    height: auto;
+}
+
+.imglogo {
+    width: 54%;
+    height: auto;
+    margin-left: 62px;
+    margin-right: -210px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #0B2447;
+    overflow: hidden;
+    height: 44px;
+    margin-top: 27px;
+    margin-left: 97px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Roboto Bold";
+    font-style: normal;
+    margin-left: 20px;
+    margin-right: 80px;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: #06156D;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #7175FF;
+    color: white;
+}
+
+.flex-containermain {
+
+display: flex;
+
+}
+.flex-containermain div{
+    background-color: #576CBC;
+    margin-top: 3px;
+    margin-left: 2px;
+    padding-left: 0px;
+    margin-right: 2px;
+    width: 90%;
+    height: auto;
+	
+}
+.imagenk {
+    width: 100%;
+    height: auto;
+
+}
+
+.titulop {
+    color: #FFFFFF;
+    font-family: "Montserrat Bold";
+    font-size: 90px;
+    text-align: left;
+    text-transform: none;
+    line-height: 93px;
+    margin-left: 83px;
+    margin-top: 86px;
+}
+
+.textop {
+    color: #FFFFFF;
+    font-family: "Montserrat Medium";
+    margin-left: 83px;
+    margin-right: 80px;
+    font-size: 20px;
+    margin-top: 12px;
+}
+.boton {
+    background-color: #FFFCFC;
+    width: 219px;
+    height: 48px;
+    font-family: "Montserrat Bold";
+    font-style: normal;
+    text-align: center;
+    text-transform: none;
+    font-size: 35px;
+    border-width: 36px;
+    border-color: #FBF3F3;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 83px;
+    text-decoration: none;
+}
+.textoboton {
+    text-decoration: none;
+    font-family: "Montserrat Bold";
+}
+.seccionimagen {
+    background-image: url(../jpg/Osito.JPG);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 612px;
+    background-size: 101% auto;
+    display: flex;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.frase2 {
+    color: #FFFDFD;
+    font-family: "Roboto Regular";
+    margin-top: 0px;
+    font-style: italic;
+    font-size: 22px;
+    padding-left: 0px;
+    width: 368px;
+    margin-left: 826px;
+    padding-top: 266px;
+}
+
+footer {
+    background-color: #0B2447;
+    margin-top: 3px;
+    width: 100%;
+    height: auto;
+}
+.fa {
+    padding-top: 14px;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-bottom: 14px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 27px;
+    margin-right: 5px;
+    margin-left: 7px;
+    margin-bottom: 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.redes {
+    width: auto;
+    height: auto;
+}
+.creditos {
+    color: #FFFFFF;
+    font-family: "Roboto Regular";
+    font-size: 16px;
+}
+
+
+
+
+/*sobremi*/
+
+
+.imagbio {
+    width: 47%;
+    height: auto;
+    float: left;
+    margin-left: 5px;
+    margin-right: 26px;
+}
+.flex_biouno {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    margin-top: 7px;
+    background-color: #19376D;
+}
+.flex-containerbio {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-containerbio div {
+    background-color: #576CBC;
+    margin-left: 3px;
+    margin-right: 2px;
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+.bioh2 {
+    color: #FFFFFF;
+    font-family: "Montserrat Medium";
+    font-variant: small-caps;
+    font-size: 64px;
+    margin-top: 54px;
+}
+.pbio {
+    color: #CFCECE;
+    font-family: "Montserrat Medium";
+    font-size: 16px;
+    margin-right: 50px;
+    margin-top: 18px;
+}
+
+
+
+
+div h1 {
+    font-family: "Montserrat Bold";
+    color: #A5D7E8;
+    margin-top: 37px;
+}
+
+div ul li {
+    display: inline-block;
+    font-family: "Montserrat Medium";
+    font-variant: normal;
+    border-radius: 7px 1px 6px 6px;
+    border: 0px solid rgba(252,252,252,1.00);
+    padding-right: 0px;
+    margin-left: 57px;
+    background-color: #19376D;
+    color: #FFFFFF;
+    width: 152px;
+    text-align: center;
+    margin-bottom: 28px;
+    margin-right: 17px;
+    height: 31px;
+    font-size: 20px;
+    margin-top: -14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.valor {
+    color: #FFFFFF;
+    font-family: "Roboto Bold";
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: normal;
+    font-size: 32px;
+    text-shadow: 0px 0px 2px;
+    letter-spacing: 7px;
+    display: block;
+    margin-left: 55px;
+    margin-top: 8px;
+    margin-bottom: 31px;
+}
+.divva {
+    font-family: "Montserrat Bold";
+    font-size: 73px;
+    margin-left: 45px;
+}
+.va {
+    font-family: "Roboto Bold";
+    font-variant: small-caps;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 2px;
+    letter-spacing: 8px;
+    margin-left: 59px;
+    margin-top: 26px;
+    margin-bottom: 31px;
+}
+.compte {
+    font-family: "Roboto Bold";
+    font-variant: small-caps;
+    font-size: 31px;
+    text-shadow: 0px 0px 0px;
+    margin-left: 76px;
+    margin-bottom: 7px;
+    margin-top: 32px;
+    color: #A5D7E8;
+}
+div ol li {
+    text-decoration: none;
+    font-family: "Montserrat Medium";
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-left: 22px;
+    display: list-item;
+    margin-left: 111px;
+    color: #FFFFFF;
+}
+.compe2 {
+    font-family: "Roboto Bold";
+    font-variant: small-caps;
+    font-size: 32px;
+    margin-left: 76px;
+    margin-top: 27px;
+    margin-bottom: 12px;
+    color: #A5D7E8;
+}
+main section {
+    width: 90%;
+}
+.fondoporta {
+    width: 100%;
+    height: 500px;
+    background-image: url(../jpg/portafolio.jpg);
+    background-repeat: no-repeat;
+    background-position: 0% 76%;
+    background-size: 100% auto;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+.fondoporta div {
+    margin-top: 0px;
+    width: 650px;
+    color: #FFFFFF;
+    font-family: "Roboto MediumItalic";
+    font-size: 50px;
+    padding-top: 59px;
+    padding-left: 32px;
+}
+
+
+/*portafolio*/
+.gallery{
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+    height: 430px;
+    margin-left: 28px;
+    margin-bottom: 103px;
+}
+
+.gallery img{
+	width: 0px;
+	flex-grow: 1;
+	object-fit: cover;
+	height: 100%;
+	opacity: .8;
+	transition: .5s ease;
+}
+
+.gallery img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%)
+}
+.fondopor{
+    background-color: #576CBC;
+    margin-top: 142px;
+    padding-top: 0px;
+    width: 100%;
+    height: 2300px;
+    flex-wrap: no-wrap;
+}
+.tituloport {
+    font-family: "Roboto Bold";
+    font-variant: small-caps;
+    font-size: 67px;
+    color: #FFFFFF;
+    padding-left: 8px;
+    margin-left: 24px;
+    padding-top: 133px;
+    margin-top: -132px;
+}
+.texport {
+    font-family: "Montserrat Medium";
+    font-size: 20px;
+    width: 937px;
+    float: none;
+    clear: none;
+    padding-left: 0px;
+    margin-left: 32px;
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-bottom: 21px;
+}
+.formulario {
+    width: 218px;
+}
+.flex-containermaincon {
+    width: 0%;
+    background-color: #FF4043;
+    display: flex;
+    justify-content: space-between;
+}
+.Flex-conteinercon {
+    display: flex;
+    width: 96%;
+    margin-top: 8px;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.div-info {
+    width: 50%;
+    background-color: #A5D7E8;
+    height: 358px;
+    margin-left: -10px;
+    margin-right: 18px;
+}
+.divfor {
+    width: 64%;
+    margin-left: 1px;
+    background-color: #576CBC;
+    height: 1000px;
+}
+
+
+
+
+
+/*Formulario*/
+
+.contact_form{
+    width: 460px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    padding-left: 30px;
+    margin-top: 37px;
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color:#0B2447; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #0B2447; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #0B2447; 
+  border-color: #0B2447; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #A5D7E8; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: white;  
+}
+.h1formulario {
+    width: 327px;
+    font-family: "Roboto Bold";
+    font-size: 31px;
+}
+.h3formu {
+    width: 300px;
+    margin-bottom: 20px;
+    font-family: "Montserrat Medium";
+    font-size: 15px;
+
+}
+.colocar_nombre {
+    font-family: "Montserrat Medium";
+}
+.colocar_email {
+    font-family: "Montserrat Medium";
+}
+.colocar_telefono {
+    font-family: "Montserrat Medium";
+}
+.colocar_asunto {
+    font-family: "Montserrat Medium";
+}
+.colocar_mensaje   {
+    font-family: "Montserrat Medium";
+}
+.h2contacto {
+    color: #FFFFFF;
+    font-family: "Roboto Bold";
+    font-size: 59px;
+    padding-top: 2px;
+    padding-left: 2px;
+    margin-left: 16px;
+}
+.texcontacto {
+    font-family: "Montserrat Medium";
+    margin-top: 15px;
+    margin-left: 19px;
+}
+.h3porta {
+    height: auto;
+    margin-top: 184px;
+}
+
+@media (min-width: 30em) and (max-width: 80em) {
+  body {
+    background-color: purple;
+  }
+}
